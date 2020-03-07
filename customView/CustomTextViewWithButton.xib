@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTextViewWithButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+            <connections>
+                <outlet property="CustomTextview" destination="IHz-BF-2dW" id="BQ6-E2-zyB"/>
+                <outlet property="myCustomButton" destination="zvE-hg-7cY" id="Wj0-AI-NjR"/>
+                <outlet property="tapGesture" destination="WDk-V6-e1J" id="zDl-aP-pPZ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="bzi-iC-7bX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="142"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHz-BF-2dW" customClass="CustomTextView" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="325" height="142"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvE-hg-7cY" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                    <rect key="frame" x="335" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Jjr-TE-BvF"/>
+                        <constraint firstAttribute="width" constant="40" id="b2G-AT-Fj0"/>
+                    </constraints>
+                    <state key="normal" title="+"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="IHz-BF-2dW" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="1YX-ZM-Usa"/>
+                <constraint firstItem="IHz-BF-2dW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Aro-m5-KCd"/>
+                <constraint firstItem="IHz-BF-2dW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Fdg-RD-Vvj"/>
+                <constraint firstItem="zvE-hg-7cY" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="PJL-ur-xhx"/>
+                <constraint firstItem="zvE-hg-7cY" firstAttribute="leading" secondItem="IHz-BF-2dW" secondAttribute="trailing" constant="10" id="gml-yV-Udu"/>
+                <constraint firstItem="zvE-hg-7cY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="vcR-Fp-Y81"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="WDk-V6-e1J" appends="YES" id="IhC-Yf-vCJ"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="315"/>
+        </view>
+        <tapGestureRecognizer id="WDk-V6-e1J">
+            <connections>
+                <action selector="tapOnTapGesture:" destination="-1" id="Z4y-7X-7cc"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

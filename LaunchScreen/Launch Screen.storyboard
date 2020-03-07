@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="Splash" id="01J-lp-oVM" customClass="Splash" customModule="CBO_Mobile_Reporting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="0.0" y="647" width="375" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="login_splash_pg.png" translatesAutoresizingMaskIntoConstraints="NO" id="XHI-Oz-Syq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1234.png" translatesAutoresizingMaskIntoConstraints="NO" id="hFx-ap-Hwq">
+                                <rect key="frame" x="122.5" y="0.0" width="130" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="E0U-Sk-mv5"/>
+                                    <constraint firstAttribute="height" constant="98" id="aEp-eg-uHN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="hFx-ap-Hwq" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="GVI-4j-VTb"/>
+                            <constraint firstItem="hFx-ap-Hwq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KdT-MJ-ht6"/>
+                            <constraint firstItem="XHI-Oz-Syq" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="OVa-N1-vK9"/>
+                            <constraint firstItem="XHI-Oz-Syq" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="SEZ-Xd-kfj"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="XHI-Oz-Syq" secondAttribute="trailing" id="Xgf-q0-KDn"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="top" secondItem="XHI-Oz-Syq" secondAttribute="bottom" constant="-20" id="cNd-0F-94b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_splash_pg.png" width="240" height="360"/>
+        <image name="logo1234.png" width="61.200000762939453" height="40.560001373291016"/>
+    </resources>
+</document>

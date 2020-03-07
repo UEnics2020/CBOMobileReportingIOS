@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomWebView" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+            <connections>
+                <outlet property="btnview" destination="mVH-YW-tGm" id="Jtt-DJ-nQq"/>
+                <outlet property="marketbtn" destination="utV-hc-K0K" id="joK-Jh-aiS"/>
+                <outlet property="myWebView" destination="ytl-Lv-G66" id="6SA-9r-MSO"/>
+                <outlet property="salesbtn" destination="Hqo-m3-Oab" id="mZY-Ak-7ox"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webViewContainer" destination="dNP-GN-V75" id="TOh-BO-MT2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="CustomWe">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNP-GN-V75">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kcl-0l-hlp">
+                            <rect key="frame" x="10" y="0.0" width="394" height="50"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hqo-m3-Oab" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="192" height="50"/>
+                                    <color key="backgroundColor" red="0.062745098039215685" green="0.29803921568627451" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                    <state key="normal" title="Sales">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utV-hc-K0K" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                    <rect key="frame" x="202" y="0.0" width="192" height="50"/>
+                                    <color key="backgroundColor" red="0.023529411764705882" green="0.38039215686274508" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                    <state key="normal" title="Marketing">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="utV-hc-K0K" firstAttribute="width" secondItem="Hqo-m3-Oab" secondAttribute="width" id="Qj2-Px-4db"/>
+                                <constraint firstAttribute="height" constant="50" id="mVH-YW-tGm"/>
+                            </constraints>
+                        </stackView>
+                        <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ytl-Lv-G66">
+                            <rect key="frame" x="0.0" y="50" width="414" height="768"/>
+                            <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </webView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="kcl-0l-hlp" secondAttribute="trailing" constant="10" id="9ed-QM-ces"/>
+                        <constraint firstAttribute="bottom" secondItem="ytl-Lv-G66" secondAttribute="bottom" id="B5s-3n-opk"/>
+                        <constraint firstItem="ytl-Lv-G66" firstAttribute="leading" secondItem="dNP-GN-V75" secondAttribute="leading" id="HrB-ZY-0uH"/>
+                        <constraint firstItem="kcl-0l-hlp" firstAttribute="leading" secondItem="dNP-GN-V75" secondAttribute="leading" constant="10" id="P59-Ne-y50"/>
+                        <constraint firstItem="ytl-Lv-G66" firstAttribute="top" secondItem="kcl-0l-hlp" secondAttribute="bottom" id="iJn-eb-riu"/>
+                        <constraint firstItem="kcl-0l-hlp" firstAttribute="top" secondItem="dNP-GN-V75" secondAttribute="top" id="mKP-Mf-nXn"/>
+                        <constraint firstAttribute="trailing" secondItem="ytl-Lv-G66" secondAttribute="trailing" id="w0a-aK-HOk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dNP-GN-V75" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6Yg-V9-240"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dNP-GN-V75" secondAttribute="trailing" id="cL9-CJ-jze"/>
+                <constraint firstItem="dNP-GN-V75" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="itD-TA-3g5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dNP-GN-V75" secondAttribute="bottom" id="tSu-rm-XyQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="136.60714285714286"/>
+        </view>
+    </objects>
+</document>

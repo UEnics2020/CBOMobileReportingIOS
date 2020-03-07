@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="119" id="q8S-zl-5bP" customClass="VisualAdRow" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q8S-zl-5bP" id="Ude-I8-h86">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qFK-QE-kUT">
+                        <rect key="frame" x="10" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="u5z-mZ-WUf"/>
+                            <constraint firstAttribute="height" constant="50" id="zui-EC-1Oc"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="done.png" translatesAutoresizingMaskIntoConstraints="NO" id="Peh-eQ-tH1">
+                        <rect key="frame" x="325" y="5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="0bq-bc-3xa"/>
+                            <constraint firstAttribute="height" constant="40" id="TN4-Sh-ADo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nvilrwfglrwnfwflnweflnwlfnwelfnlwenflwdnflwfnvilrwfglrwnfwflnweflnwlfnwelfnlwenflwdnflwfnvilrwfglrwnfwflnweflnwlfnwelfn" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-vm-Qbs">
+                        <rect key="frame" x="70" y="1" width="245" height="97"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="bzZ-CT-Bzg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ROb-zL-Ikc" customClass="CheckBox" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                        <rect key="frame" x="325" y="5" width="40" height="40"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="oae-9E-r9E"/>
+                            <constraint firstAttribute="height" constant="40" id="tkI-nY-cmM"/>
+                        </constraints>
+                    </view>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Download 03/03/2020 1:03 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNe-Bd-7bU">
+                        <rect key="frame" x="190" y="95" width="182" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="TcG-ho-UGb"/>
+                            <constraint firstAttribute="width" constant="182" id="z6o-fi-rJn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload 03/03/2020 1:03 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eb-ag-P3i">
+                        <rect key="frame" x="5" y="95" width="184" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="184" id="ZI5-oe-Rws"/>
+                            <constraint firstAttribute="height" constant="21" id="dez-51-fwS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fNe-Bd-7bU" secondAttribute="bottom" constant="3" id="5Dx-QB-SQa"/>
+                    <constraint firstAttribute="trailing" secondItem="ROb-zL-Ikc" secondAttribute="trailing" constant="10" id="Axa-vf-AyT"/>
+                    <constraint firstItem="Peh-eQ-tH1" firstAttribute="leading" secondItem="jo7-vm-Qbs" secondAttribute="trailing" constant="10" id="Ivd-5v-BwC"/>
+                    <constraint firstItem="jo7-vm-Qbs" firstAttribute="top" secondItem="Ude-I8-h86" secondAttribute="top" constant="1" id="JwS-kT-vsl"/>
+                    <constraint firstItem="qFK-QE-kUT" firstAttribute="top" secondItem="Ude-I8-h86" secondAttribute="top" constant="5" id="RdU-Eh-Zve"/>
+                    <constraint firstItem="ROb-zL-Ikc" firstAttribute="top" secondItem="Ude-I8-h86" secondAttribute="top" constant="5" id="S9F-Bh-WTf"/>
+                    <constraint firstAttribute="trailing" secondItem="Peh-eQ-tH1" secondAttribute="trailing" constant="10" id="SUg-bO-28u"/>
+                    <constraint firstItem="qFK-QE-kUT" firstAttribute="leading" secondItem="Ude-I8-h86" secondAttribute="leading" constant="10" id="a7v-Rd-ZzI"/>
+                    <constraint firstItem="Peh-eQ-tH1" firstAttribute="top" secondItem="Ude-I8-h86" secondAttribute="top" constant="5" id="aZu-j4-gMB"/>
+                    <constraint firstAttribute="bottom" secondItem="1eb-ag-P3i" secondAttribute="bottom" constant="3" id="ccv-9u-Yoc"/>
+                    <constraint firstAttribute="trailing" secondItem="fNe-Bd-7bU" secondAttribute="trailing" constant="3" id="eHc-Oh-p3O"/>
+                    <constraint firstItem="jo7-vm-Qbs" firstAttribute="leading" secondItem="qFK-QE-kUT" secondAttribute="trailing" constant="10" id="fX0-nw-1hc"/>
+                    <constraint firstAttribute="bottom" secondItem="jo7-vm-Qbs" secondAttribute="bottom" constant="21" id="lvt-h2-LRh"/>
+                    <constraint firstItem="1eb-ag-P3i" firstAttribute="leading" secondItem="Ude-I8-h86" secondAttribute="leading" constant="5" id="sT6-zT-VkK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="adName" destination="jo7-vm-Qbs" id="XEm-eh-qCk"/>
+                <outlet property="checkbox" destination="ROb-zL-Ikc" id="AQg-Ci-F80"/>
+                <outlet property="downloaddateTime" destination="fNe-Bd-7bU" id="rEZ-Ok-O7y"/>
+                <outlet property="imgwidth" destination="u5z-mZ-WUf" id="eKb-EX-fD2"/>
+                <outlet property="myImageView" destination="qFK-QE-kUT" id="RUx-CW-PIA"/>
+                <outlet property="promoted" destination="Peh-eQ-tH1" id="6Ag-UQ-kLc"/>
+                <outlet property="uploaddateTime" destination="1eb-ag-P3i" id="1a2-s0-dG1"/>
+            </connections>
+            <point key="canvasLocation" x="-360.80000000000001" y="-144.3778110944528"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="done.png" width="32" height="32"/>
+    </resources>
+</document>

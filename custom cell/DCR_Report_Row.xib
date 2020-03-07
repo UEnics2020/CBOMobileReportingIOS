@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="480" id="KGk-i7-Jjw" customClass="DCR_Report_Row" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="471" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="471" height="479.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwe-Nx-J81" customClass="CustomBoarder" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                        <rect key="frame" x="5" y="5" width="461" height="474.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bKa-K6-P9Q">
+                                <rect key="frame" x="5" y="5" width="451" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8P-yf-Z6a">
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="118" id="ePY-qc-Tu3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hj3-Bm-BQ8">
+                                        <rect key="frame" x="138" y="0.0" width="5" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="L3i-vf-tir"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vdfgfdsgds fg wdf wdfdwfw fwdfdwfsgf dg g g" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWF-e5-1HA">
+                                        <rect key="frame" x="163" y="0.0" width="288" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VbO-SZ-ACF">
+                                <rect key="frame" x="5" y="51" width="451" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Worked Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8P-Q8-LlE">
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="118" id="Wa8-EC-wis"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sml-ys-cAt">
+                                        <rect key="frame" x="138" y="0.0" width="5" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="Tqp-ZB-vmg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vdfgfdsgds fg wdf wdfdwfw fwdfdwfsgf dg g g" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcv-CP-6zW">
+                                        <rect key="frame" x="163" y="0.0" width="288" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="OQe-e3-bKF">
+                                <rect key="frame" x="5" y="97" width="281" height="321.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xVe-Sq-olV" userLabel="TotalDr">
+                                        <rect key="frame" x="0.0" y="0.0" width="281" height="24.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Total Dr." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0h-9R-RhY">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="24.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="Xf1-pu-VP9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9h-HU-Gu4">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="24.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="czq-uX-WF6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pw-gu-PsF" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="24.5"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="1pw-gu-PsF" firstAttribute="width" secondItem="I0h-9R-RhY" secondAttribute="width" id="a3U-Jo-1dk"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="q8I-rr-ztn" userLabel="Dr.Reminder">
+                                        <rect key="frame" x="0.0" y="27.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dr. Reminder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQV-6i-Yl1">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="Ac0-vS-IUg"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmc-1T-MR8">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="NnP-kY-tdj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgt-Sb-rRG" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="bgt-Sb-rRG" firstAttribute="width" secondItem="AQV-6i-Yl1" secondAttribute="width" id="XzB-Ma-SLv"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KCg-jO-q6E" userLabel="TotalChemist">
+                                        <rect key="frame" x="0.0" y="60.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Total Chemist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFn-iK-hJl">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="uVA-dh-WRy"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2e-Rf-OQY">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="Jdk-Im-8fV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcE-tI-jPE" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="dcE-tI-jPE" firstAttribute="width" secondItem="EFn-iK-hJl" secondAttribute="width" id="DqZ-vd-M1X"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bNn-gU-uGp" userLabel="totalStockist">
+                                        <rect key="frame" x="0.0" y="93.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Total Stockist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pu-Jl-EVk">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="Bsg-Tk-H8R"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtz-ha-9UU">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="I5V-T7-ry2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VO6-R7-xka" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="VO6-R7-xka" firstAttribute="width" secondItem="1pu-Jl-EVk" secondAttribute="width" id="oW8-bJ-vEX"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="haf-me-xnJ" userLabel="TotalChemist">
+                                        <rect key="frame" x="0.0" y="126.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dairy Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gz-hL-ubY">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="PeH-Fc-M8a"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmm-7N-cs0">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="2fj-CI-XQu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X6-0V-aBW" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="0X6-0V-aBW" firstAttribute="width" secondItem="9gz-hL-ubY" secondAttribute="width" id="XjI-sf-k4Z"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LnD-Om-jZ2" userLabel="TotalChemist">
+                                        <rect key="frame" x="0.0" y="159.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Polutry Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mu1-Xv-GOD">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="kUJ-ZS-KxN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qg2-M2-aN6">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="kzX-6M-RjT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INQ-ba-fl0" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="INQ-ba-fl0" firstAttribute="width" secondItem="mu1-Xv-GOD" secondAttribute="width" id="uMl-iS-ICx"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dhF-i2-WCC" userLabel="nonlistedcall">
+                                        <rect key="frame" x="0.0" y="192.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Non Listed Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdP-LL-ife">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="gCD-40-xgE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghc-lq-b6H">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="dVW-3S-VWy"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTr-dQ-NbL" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="hTr-dQ-NbL" firstAttribute="width" secondItem="SdP-LL-ife" secondAttribute="width" id="ey4-eu-0JC"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Hjb-05-fQc" userLabel="TotalChemist">
+                                        <rect key="frame" x="0.0" y="225.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Missed Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46f-w0-mRf">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="jvE-WQ-NSS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vYr-WW-ATB">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="WF6-a2-C7B"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okx-da-Ac4" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="okx-da-Ac4" firstAttribute="width" secondItem="46f-w0-mRf" secondAttribute="width" id="2yS-mF-UOq"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="x8C-0W-gpB" userLabel="TotalChemist">
+                                        <rect key="frame" x="0.0" y="258.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tanivia Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ma-dZ-gac">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="hPs-9U-pRE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7Z-wK-ENJ">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="DGl-1z-kqX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VU-hF-oNj" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="5VU-hF-oNj" firstAttribute="width" secondItem="1Ma-dZ-gac" secondAttribute="width" id="iZr-BV-pDm"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zFJ-8p-ZZG" userLabel="DAType">
+                                        <rect key="frame" x="0.0" y="291.5" width="281" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="DA Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si6-Am-vyv">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="118" id="Zbj-0Q-TXW"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLB-gg-pPl">
+                                                <rect key="frame" x="138" y="0.0" width="5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="5" id="5Ew-0C-xdK"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPa-gW-UIR" customClass="CustomeUIButton" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="118" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="sPa-gW-UIR" firstAttribute="width" secondItem="si6-Am-vyv" secondAttribute="width" id="RCf-I8-U0n"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3SM-a1-0vo">
+                                <rect key="frame" x="5" y="428.5" width="451" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="remark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGa-JC-yES">
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="118" id="vpt-5b-3vH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZG3-cZ-dMw">
+                                        <rect key="frame" x="138" y="0.0" width="5" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="5" id="trt-hh-fJ8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vdfgfdsgds fg wdf wdfdwfw fwdfdwfsgf dg g g" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6u-Se-jYd">
+                                        <rect key="frame" x="163" y="0.0" width="288" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OQe-e3-bKF" firstAttribute="leading" secondItem="gwe-Nx-J81" secondAttribute="leading" constant="5" id="4Bf-VK-58B"/>
+                            <constraint firstItem="VbO-SZ-ACF" firstAttribute="leading" secondItem="gwe-Nx-J81" secondAttribute="leading" constant="5" id="Azj-gf-Q0a"/>
+                            <constraint firstAttribute="bottom" secondItem="3SM-a1-0vo" secondAttribute="bottom" constant="10" id="CQB-6A-H6c"/>
+                            <constraint firstItem="OQe-e3-bKF" firstAttribute="top" secondItem="VbO-SZ-ACF" secondAttribute="bottom" constant="10" id="HUo-UK-No9"/>
+                            <constraint firstItem="3SM-a1-0vo" firstAttribute="leading" secondItem="gwe-Nx-J81" secondAttribute="leading" constant="5" id="JgV-u4-ivg"/>
+                            <constraint firstAttribute="trailing" secondItem="bKa-K6-P9Q" secondAttribute="trailing" constant="5" id="MWO-zD-d1w"/>
+                            <constraint firstItem="VbO-SZ-ACF" firstAttribute="top" secondItem="bKa-K6-P9Q" secondAttribute="bottom" constant="10" id="SJR-XO-VMc"/>
+                            <constraint firstAttribute="trailing" secondItem="3SM-a1-0vo" secondAttribute="trailing" constant="5" id="pQf-eN-g0a"/>
+                            <constraint firstAttribute="trailing" secondItem="VbO-SZ-ACF" secondAttribute="trailing" constant="5" id="sBm-RC-BSU"/>
+                            <constraint firstItem="3SM-a1-0vo" firstAttribute="top" secondItem="OQe-e3-bKF" secondAttribute="bottom" constant="10" id="txb-02-Bet"/>
+                            <constraint firstItem="bKa-K6-P9Q" firstAttribute="leading" secondItem="gwe-Nx-J81" secondAttribute="leading" constant="5" id="wox-Aa-YeZ"/>
+                            <constraint firstItem="bKa-K6-P9Q" firstAttribute="top" secondItem="gwe-Nx-J81" secondAttribute="top" constant="5" id="yM5-5d-gF3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="boarderWidth">
+                                <real key="value" value="1.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gwe-Nx-J81" secondAttribute="trailing" constant="5" id="8IE-lJ-9cE"/>
+                    <constraint firstItem="gwe-Nx-J81" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="RGp-3r-TKu"/>
+                    <constraint firstAttribute="bottom" secondItem="gwe-Nx-J81" secondAttribute="bottom" id="bOW-0s-hTW"/>
+                    <constraint firstItem="gwe-Nx-J81" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="lD4-r1-BRN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ChemTxt" destination="EFn-iK-hJl" id="fZ9-FN-dAx"/>
+                <outlet property="DAType" destination="sPa-gW-UIR" id="93d-zN-H8Y"/>
+                <outlet property="DaTypeStackView" destination="zFJ-8p-ZZG" id="pwh-H5-MuY"/>
+                <outlet property="DairyBtn" destination="0X6-0V-aBW" id="ZbG-Wy-opY"/>
+                <outlet property="DairyLayout" destination="haf-me-xnJ" id="oh3-BQ-l3s"/>
+                <outlet property="DairyTxt" destination="9gz-hL-ubY" id="yqx-eW-AeC"/>
+                <outlet property="DrRcTxt" destination="AQV-6i-Yl1" id="CdU-KH-ExL"/>
+                <outlet property="DrTxt" destination="I0h-9R-RhY" id="c6c-sU-08w"/>
+                <outlet property="Dr_Reminder" destination="bgt-Sb-rRG" id="Tf7-Ne-Gb7"/>
+                <outlet property="MissedBtn" destination="okx-da-Ac4" id="bsl-Ql-68i"/>
+                <outlet property="MissedLayout" destination="Hjb-05-fQc" id="ucp-PS-efc"/>
+                <outlet property="MissedTxt" destination="46f-w0-mRf" id="s5a-5j-adJ"/>
+                <outlet property="NonListedTxt" destination="SdP-LL-ife" id="xeH-pY-0a4"/>
+                <outlet property="PolutaryBtn" destination="INQ-ba-fl0" id="bQn-AM-HTX"/>
+                <outlet property="PolutaryLayout" destination="LnD-Om-jZ2" id="42h-0I-9f8"/>
+                <outlet property="PolutaryTxt" destination="mu1-Xv-GOD" id="IO8-AX-qeK"/>
+                <outlet property="RxBtn" destination="5VU-hF-oNj" id="I98-U9-CY9"/>
+                <outlet property="RxLayout" destination="x8C-0W-gpB" id="O93-Iu-wnz"/>
+                <outlet property="StkTxt" destination="1pu-Jl-EVk" id="leC-GS-S6L"/>
+                <outlet property="TaniviaTxt" destination="1Ma-dZ-gac" id="HDD-Ch-6H7"/>
+                <outlet property="date" destination="FWF-e5-1HA" id="1bX-dE-5p5"/>
+                <outlet property="dr_ReminderStackView" destination="q8I-rr-ztn" id="G3Z-Bi-XKS"/>
+                <outlet property="nonListedCall" destination="hTr-dQ-NbL" id="bdS-et-coG"/>
+                <outlet property="nonListedCallStackView" destination="dhF-i2-WCC" id="FbC-5s-CFk"/>
+                <outlet property="remark" destination="z6u-Se-jYd" id="Nul-pH-Uh1"/>
+                <outlet property="totalChemist" destination="dcE-tI-jPE" id="uHs-Hh-GGo"/>
+                <outlet property="totalChemistStackView" destination="KCg-jO-q6E" id="5FQ-IE-FbH"/>
+                <outlet property="totalDR" destination="1pw-gu-PsF" id="dax-a9-Psq"/>
+                <outlet property="totalDRStackView" destination="xVe-Sq-olV" id="7CY-no-0VJ"/>
+                <outlet property="totalStockist" destination="VO6-R7-xka" id="ITm-Ol-454"/>
+                <outlet property="totalStockistStackView" destination="bNn-gU-uGp" id="jqJ-UN-4xS"/>
+                <outlet property="workStation" destination="rcv-CP-6zW" id="foW-GP-F21"/>
+            </connections>
+            <point key="canvasLocation" x="-278.5" y="-480"/>
+        </tableViewCell>
+    </objects>
+</document>

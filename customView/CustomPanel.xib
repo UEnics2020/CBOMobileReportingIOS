@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomPanel" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+            <connections>
+                <outlet property="CheckBox" destination="zJn-es-tJl" id="FkI-i5-6iE"/>
+                <outlet property="CustomTextview" destination="qDW-uf-u2q" id="SE1-fQ-rLP"/>
+                <outlet property="DivertCheckBox" destination="qdA-Fa-Sbl" id="aoU-iV-LPT"/>
+                <outlet property="diverRemarkSaparetor" destination="Ny4-fN-ahU" id="5MT-NK-2gl"/>
+                <outlet property="divertRemark" destination="86U-7A-tTJ" id="IZN-QB-omZ"/>
+                <outlet property="divertTitle" destination="t9W-rY-Paw" id="bJS-nE-nfJ"/>
+                <outlet property="tabGesture" destination="BcX-Mr-NfC" id="eSQ-1E-9Sq"/>
+                <outlet property="title" destination="SJF-9Q-seP" id="ao1-Tg-6BW"/>
+                <outlet property="view" destination="iN0-l3-epB" id="67w-2y-AHu"/>
+            </connections>
+        </placeholder>
+        <tapGestureRecognizer id="BcX-Mr-NfC">
+            <connections>
+                <action selector="tapOnTapGesture:" destination="-1" id="D8D-T8-edx"/>
+            </connections>
+        </tapGestureRecognizer>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="211"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zf5-4U-sxM">
+                    <rect key="frame" x="0.0" y="0.0" width="610" height="211"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hd3-1z-P4j">
+                            <rect key="frame" x="0.0" y="0.0" width="610" height="30"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="QuP-hX-YcF">
+                                    <rect key="frame" x="0.0" y="0.0" width="610" height="30"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkk-Fu-do9">
+                                            <rect key="frame" x="0.0" y="0.0" width="40" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="8Hg-qh-aSU"/>
+                                                <constraint firstAttribute="height" constant="30" id="CKZ-0U-4hk"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                            <state key="normal" title="+"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJF-9Q-seP">
+                                            <rect key="frame" x="40" y="0.0" width="322" height="30"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                            <nil key="textColor"/>
+                                            <color key="highlightedColor" red="0.10192203900000001" green="0.23514382589999999" blue="0.67901959199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdA-Fa-Sbl">
+                                            <rect key="frame" x="362" y="0.0" width="248" height="30"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Divert" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9W-rY-Paw">
+                                                    <rect key="frame" x="0.0" y="0.0" width="218" height="30"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zJn-es-tJl" customClass="CheckBox" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                                    <rect key="frame" x="218" y="0.0" width="30" height="30"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="axu-Hb-1bK"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.2249411254" green="0.29801382329999998" blue="0.82693459179999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstItem="SJF-9Q-seP" firstAttribute="width" secondItem="qdA-Fa-Sbl" secondAttribute="width" multiplier="1.3" id="a6H-yQ-EmY"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="QuP-hX-YcF" firstAttribute="height" secondItem="Hd3-1z-P4j" secondAttribute="height" id="Y8R-Sa-pMU"/>
+                                <constraint firstItem="QuP-hX-YcF" firstAttribute="leading" secondItem="Hd3-1z-P4j" secondAttribute="leading" id="Z3V-1B-rpZ"/>
+                                <constraint firstAttribute="trailing" secondItem="QuP-hX-YcF" secondAttribute="trailing" id="cFk-lb-Jat"/>
+                                <constraint firstAttribute="bottom" secondItem="QuP-hX-YcF" secondAttribute="bottom" id="pC2-lY-rRH"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHd-W4-DAl">
+                            <rect key="frame" x="0.0" y="30" width="610" height="1"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Lne-c8-gAM"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHe-ph-uGX">
+                            <rect key="frame" x="0.0" y="31" width="610" height="180"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TV9-CG-nZ3">
+                                    <rect key="frame" x="25" y="0.0" width="582" height="180"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qDW-uf-u2q" customClass="CustomTextView" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="582" height="129"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </view>
+                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ny4-fN-ahU">
+                                            <rect key="frame" x="0.0" y="129" width="582" height="1"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="1" id="nYu-o5-g1h"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="86U-7A-tTJ" customClass="CustomTextView" customModule="CBO_Mobile_Reporting" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="130" width="582" height="50"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="L1o-Bs-LIl"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="TV9-CG-nZ3" firstAttribute="leading" secondItem="DHe-ph-uGX" secondAttribute="leading" constant="25" id="DXd-Vj-wZT"/>
+                                <constraint firstItem="TV9-CG-nZ3" firstAttribute="top" secondItem="DHe-ph-uGX" secondAttribute="top" id="SjQ-HP-FaR"/>
+                                <constraint firstAttribute="trailing" secondItem="TV9-CG-nZ3" secondAttribute="trailing" constant="3" id="cNu-ri-vKw"/>
+                                <constraint firstAttribute="bottom" secondItem="TV9-CG-nZ3" secondAttribute="bottom" id="pcd-EP-FL7"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Zf5-4U-sxM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LT8-vz-2yp"/>
+                <constraint firstAttribute="trailing" secondItem="Zf5-4U-sxM" secondAttribute="trailing" id="WJw-bV-Yu1"/>
+                <constraint firstItem="Zf5-4U-sxM" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="ad3-qS-5Q9"/>
+                <constraint firstItem="Zf5-4U-sxM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="gbe-2G-28X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="BcX-Mr-NfC" appends="YES" id="acx-DC-X5y"/>
+            </connections>
+            <point key="canvasLocation" x="-2547.1999999999998" y="-698.5007496251875"/>
+        </view>
+    </objects>
+</document>
